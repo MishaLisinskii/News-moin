@@ -5,60 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Підтримка від КНДР</title>
     <style>
-        @media (max-width: 992px) {
-        }
-        .Back {
-            text-align: center;
-            margin: 0 auto;
-        }
-        main{
-            text-align: center;
-            font-size: 20px;
-        }
         header {
+            width: 100%;
             background-color: #333;
             color: #fff;
-            padding: 10px;
             text-align: center;
+            display: flex;
+            flex-wrap: wrap;
             justify-content: center;
         }
         .box{
             width: 100%;
             display: flex;
-            flex-wrap: wrap;
-        }
-        header{
-            width: 100%;
-            display: flex;
+            flex-direction: row;
+            justify-content: center;
             flex-wrap: wrap;
         }
         img{
             width: 35%;
-            height: 80%;
-            margin-top: 50px;
-            
+            height: auto;
         }
         main{
             width: 100%;
+            height: auto;
             display: flex;
-            flex-wrap: wrap;
-        }
-        main>h1{
-            width: 75%;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
         }
         p{
-            width: 100%;
-            margin-left: 50px;
-        }
-        .content{
             width: 55%;
-
+            font-size: 15px;
         }
-        h2{
-            margin-left: 70px;
+        .Back{
+            width: 50%;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            margin-top: 60px;
+            margin-left: 50px;
+            margin-right: 160px;
         }
-        footer{
+        .Back>a{
             width: 100%;
+            height: 60px;
+            border: 1px solid #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 17px;
+            background-color: #999999;
+            color: #000;
+            font-weight: bold;
+            margin-left: 50px;
         }
     </style>
 </head>
@@ -67,17 +68,10 @@ background-size: 100%;">
 
     <div class="box">
         <header>
-            <h1>Новини України</h1> <br>
+            <h1>КНДР з вересня відправила до Росії 6700 контейнерів зі снарядами – Південна Корея</h1> <br>
         </header>
-
-        <div class="Back">
-            <a href="index.html">Back</a>
-            </div>
-
         <main>
             <img src="ok.avif" alt="">
-            <div class="content">
-                <h2>КНДР з вересня відправила до Росії 6700 контейнерів зі снарядами – Південна Корея</h1>
             <p>У Головному управлінні розвідки запевняють, що знали про графік наступу російських військ на півночі Харківщини і закликають російських військових здаватися в полон.
 
                 Джерело: речник ГУР Міноборони України Андрій Юсов в ефірі телемарафону
@@ -99,9 +93,11 @@ background-size: 100%;">
                 Вранці 11 травня російські загарбники відновили штурмові дії біля населеного пункту Глибоке на Харківщині.
                 За даними аналітиків DeepState на ранок 12 травня, російські окупанти захопили ще 6 населених пунктів у Харківській області.
                 Головком Олександр Сирський запевнив, що українське військо знає плани ворога і гнучко реагує на всі дії РФ, проте ситуацію в Харківській області називає "суттєво загостреною".</p>
-            </div>
         </main>
-        <footer><a href="https://www.pravda.com.ua/news/2024/05/12/7455433/">Джерело:</a></footer>
+        <footer class="Back">
+            <a href="https://www.pravda.com.ua/news/2024/05/12/7455433/">Source:</a>
+            <a href="index.html">Back</a>
+        </footer>
     </div>
 
 </body>

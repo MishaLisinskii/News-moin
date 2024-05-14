@@ -1,12 +1,4 @@
-@media (min-width: 538px) {
-    .slider_main{
-        font-family: Arial, sans-serif;
-        margin: 0px;
-        padding: 0;
-        width: 218%;
-        margin-left: -57%;
-    }
-}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -16,27 +8,35 @@ body {
 .box {
     width: 25%;
     margin: 0 auto;
+    max-width: 800px;
 }
+
 header {
     background-color: #333;
     color: #fff;
     padding: 10px;
     text-align: center;
+    
 }
+
 nav {
     background-color: #f4f4f4;
     padding: 10px;
+    display: flex;
 }
+
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: center;
 }
+
 nav ul li {
     display: inline;
     margin-right: 10px;
 }
+
 nav ul li a {
     color: #333;
     text-decoration: none;
@@ -46,15 +46,18 @@ nav ul li a {
     display: flex;
     align-items: center;
 }
+
 nav ul li a:hover {
     background-color: #ddd;
 }
+
 .container {
     background-color: #ffffff;
     max-width: 800px;
     margin: auto;
     padding: 20px;
 }
+
 .news {
     margin-top: 20px;
     display: none; 
@@ -62,23 +65,28 @@ nav ul li a:hover {
 .news.active {
     display: block; 
 }
+
 .news h2 {
     color: #333;
 }
+
 .news p {
     color: #666;
 }
+
 .flag {
     width: 30px;
     height: auto;
     margin-right: 5px;
 }
+
 footer {
     background-color: #333;
     color: #fff;
-    bottom: 0;
-    width: 100%;
+    text-align: center;
+    padding: 10px;
 }
+
 .Back {
     text-align: center;
     
